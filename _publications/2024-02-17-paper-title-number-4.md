@@ -6,7 +6,7 @@ permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'LLM; Argument Summarisation; Key Point Analysis; Set-based Evaluation'
 date: 2023-07-09
 venue: 'ACL 2023'
-paperurl: '[http://academicpages.github.io/files/paper3.pdf](https://aclanthology.org/2023.acl-long.786/)'
+paperurl: '[(https://aclanthology.org/2023.acl-long.786/](https://aclanthology.org/2023.acl-long.786/)'
 citation: 'Li, H., Schlegel, V., Batista-Navarro, R. and Nenadic, G., 2023. Do you hear the people sing? key point analysis via iterative clustering and abstractive summarisation. arXiv preprint arXiv:2305.16000.'
 ---
 
