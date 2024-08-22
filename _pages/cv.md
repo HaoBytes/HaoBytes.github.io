@@ -17,30 +17,36 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Mar'24 - Present: Researcher
+  * Microsoft Research Asia
+  * Building LLMs for time series
+  * Mentor: Chang Xu
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Feb-Dec'23: Researcher
+  * ASUS Intelligent Cloud Services (AICS)
+  * AI for healthcare
+  * Mentor: Viktor Schlegel
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Apr-Dec'23: Research Assistant
+  * Alliance Manchester Business School
+
+* Feb-Apr'23: Consultant
+  * Phoebe AI
+
+* Sep-Dec'22: Research Assistant
+  * Department of Law, The University of Manchester, UK
   
-Skills
+Achievements
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Competition
+  * **National First Prize** in China Big Data Competition, China
+* Scholarships
+  * **Scholarships for Excellent Students**, University of Leeds
+  * **First-Class Scholarship for Excellent Students**, Northeastern Petroleum University
+  * **Scholarships for Outstanding Undergraduate Graduates**, Northeastern Petroleum University
+* Funding
+  * **Obtained Research Funding** for Open Research Project on Multi-Task Learning for Text Mining and Entity Linking with A Designed Application in Medical Domain, UK
+    
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -59,6 +65,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Community Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* **Organiser** of NLP Club Talk series at The University of Manchester
+* **Journal and Conference Reviewer**
+  * ACL '24; EMNLP '22'23'24; NAACL '24; EACL '24; COLING '22; NLPCC '22
