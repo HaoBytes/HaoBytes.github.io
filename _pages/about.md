@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "AI and NLP Researcher | Hao Li"
+title: "AI and NLP Researcher"
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,10 +15,10 @@ Experience
 
 | Academic Experience | Working Experience |
 |---------------------|---------------------|
-| Sep 2021 - Present: Ph.D. in Computer Science, University of Manchester, UK | Mar 2024 - Present: Research Internship, Microsoft Research, China |
-| 2024: Visiting PhD, Peking University, China | Feb 2023 - Dec 2023: Research Collaborator, ASUS AICS, Singapore |
-| Aug 2019 - Nov 2020: M.Sc. in Advanced Computer Science (AI), University of Leeds, UK | Sep 2022 - Dec 2022: Research Assistant, University of Manchester, UK |
-| Sep 2013 - Jul 2017: B.Sc. in Information and Computing Science, Northeast Petroleum University, China | |
+| Ph.D. in Computer Science, University of Manchester, UK | Research Internship, Microsoft Research, Mar 2024 - Present|
+| Visiting PhD Student, Peking University, China | Research Collaborator, ASUS AICS, Feb 2023 - Dec 2023 |
+| M.Sc. in Advanced Computer Science (AI), University of Leeds, UK | Research Assistant, University of Manchester|
+| B.Sc. in Information and Computing Science, Northeast Petroleum University, China | Research Assistant, Alliance Manchester Business School |
 
 Exciting News
 ======
