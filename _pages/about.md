@@ -15,8 +15,8 @@ Experience
 
 | Academic Experience | Working Experience |
 |---------------------|---------------------|
-| Ph.D. in Computer Science, University of Manchester, UK | Research Internship, Microsoft Research, Mar 2024 - Present|
-| Visiting PhD Student, Peking University, China | Research Collaborator, ASUS AICS, Feb 2023 - Dec 2023 |
+| Ph.D. in Computer Science, University of Manchester, UK | Research Internship, Microsoft Research|
+| Visiting PhD Student, Peking University, China | Research Collaborator, ASUS AICS |
 | M.Sc. in Advanced Computer Science (AI), University of Leeds, UK | Research Assistant, University of Manchester|
 | B.Sc. in Information and Computing Science, Northeast Petroleum University, China | Research Assistant, Alliance Manchester Business School |
 
