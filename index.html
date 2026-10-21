@@ -313,20 +313,20 @@
 
 
         /* =========================================
-        6. LinkedIn 风格：机构分组 + 连接线
-         ========================================= */
+           6. LinkedIn 风格：机构分组 + 连接线
+           ========================================= */
         .org-group { margin-bottom: 30px; }
         .org-header { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; border: none; background: none; box-shadow: none; padding: 0; width: auto; height: auto; }
         .org-logo { width: 38px; height: 38px; flex-shrink: 0; border: 1px solid #eaeaea; border-radius: 6px; background: #fff; object-fit: contain; padding: 3px; }
         .org-name { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 1.02em; color: #1a1a1a; line-height: 1.3; }
         .org-meta { font-family: 'Inter', sans-serif; font-size: 0.85em; color: #777; margin-top: 1px; }
         .org-timeline { list-style: none; margin: 0; padding: 0 0 0 18px; }
-        .org-timeline li { position: relative; padding: 4px 0 4px 28px; }
+        .org-timeline li { position: relative; padding: 10px 0 10px 28px; }
         .org-timeline li::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: #dcdcdc; }
-        .org-timeline li:last-child::before { bottom: auto; height: 15px; }
-        .org-timeline li::after { content: ""; position: absolute; left: -3px; top: 11px; width: 7px; height: 7px; box-sizing: border-box; border-radius: 50%; background: #fff; border: 2px solid #8b0000; }
+        .org-timeline li:last-child::before { bottom: auto; height: 22px; }
+        .org-timeline li::after { content: ""; position: absolute; left: -3px; top: 19px; width: 7px; height: 7px; box-sizing: border-box; border-radius: 50%; background: #fff; border: 2px solid #8b0000; }
         .release-name { font-weight: bold; color: #000; }
-        .release-note { font-family: 'Inter', sans-serif; font-size: 0.85em; color: #666; margin-top: 2px; line-height: 1.5; }
+        .release-note { display: inline; margin-left: 10px; font-family: 'Inter', sans-serif; font-size: 0.85em; color: #666; }
     </style>
 </head>
 <body>
@@ -366,89 +366,6 @@
                 <img src="attached/myself.jpg" alt="My Photo" class="profile-photo">
             </div>
 
-            <!-- <h2>Blog</h2> -->
-            
-            <!-- <div class="blog-carousel">
-                <div class="blog-card">
-                    <img src="attached/images/eb5.1_cover.png" alt="ERNIE 5.1 Release" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <h3 class="blog-card-title">
-                            <a href="https://yiyan.baidu.com/blog/posts/ernie-5.1-0508-release/" target="_blank">ERNIE 5.1: The Next Generation Foundation Model</a>
-                        </h3>
-                        <div class="blog-meta">
-                            <span>May 9, 2026</span>
-                            <span class="blog-tag">LLM Release</span>
-                        </div>
-                        <div class="blog-card-excerpt">
-                            Announcing the release of ERNIE 5.1. Exploring the latest advancements in post-training, reinforcement learning, and our continued scaling efforts.
-                        </div>
-                        <div class="blog-read-more">
-                            <a href="https://yiyan.baidu.com/blog/posts/ernie-5.1-0508-release/" target="_blank">Read post →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <img src="attached/images/eb5_cover.png" alt="ERNIE 5.0 Post" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <h3 class="blog-card-title">
-                            <a href="https://yiyan.baidu.com/blog/posts/ernie5.0/" target="_blank">ERNIE 5.0: Pushing the Boundaries of Foundation Models</a>
-                        </h3>
-                        <div class="blog-meta">
-                            <span>Feb 6, 2026</span>
-                            <span class="blog-tag">LLM Release</span>
-                        </div>
-                        <div class="blog-card-excerpt">
-                            A deep dive into the architecture and training methodologies behind ERNIE 5.0, achieving top-tier performance on global benchmarks through advanced reinforcement learning techniques.
-                        </div>
-                        <div class="blog-read-more">
-                            <a href="https://yiyan.baidu.com/blog/posts/ernie5.0/" target="_blank">Read post →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <img src="attached/images/mira_cover.jpg" alt="MIRA Paper" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <h3 class="blog-card-title">
-                            <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/8e12ba543adc673da5b89c9311fcf72c-Abstract-Conference.html" target="_blank">MIRA: Medical Time Series Foundation Model</a>
-                        </h3>
-                        <div class="blog-meta">
-                            <span>Jan 24 2026</span>
-                            <span class="blog-tag">Healthcare AI</span>
-                            <span class="blog-tag">Foundation Model</span>
-                        </div>
-                        <div class="blog-card-excerpt">
-                            Presenting our work at NeurIPS 2025. This paper explores MIRA, a foundation model specifically designed to tackle the complexities of real-world medical time-series data and electronic health records.
-                        </div>
-                        <div class="blog-read-more">
-                            <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/8e12ba543adc673da5b89c9311fcf72c-Abstract-Conference.html" target="_blank">Read paper →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <img src="attached/images/timecraft_cover.png" alt="TimeCraft Article" class="blog-card-image">
-                    <div class="blog-card-content">
-                        <h3 class="blog-card-title">
-                            <a href="https://www.microsoft.com/en-us/research/articles/timecraft-a-universal-framework-for-time-series-generation/" target="_blank">TimeCraft: A Universal Framework for Time-Series Generation</a>
-                        </h3>
-                        <div class="blog-meta">
-                            <span>Aug 4 2025</span>
-                            <span class="blog-tag">Time-Series</span>
-                            <span class="blog-tag">Generative AI</span>
-                        </div>
-                        <div class="blog-card-excerpt">
-                            Introducing TimeCraft, a controllable generative engine for universal time-series data. Exploring the core architecture and its impact on modeling real-world sequential data.
-                        </div>
-                        <div class="blog-read-more">
-                            <a href="https://www.microsoft.com/en-us/research/articles/timecraft-a-universal-framework-for-time-series-generation/" target="_blank">Read article →</a>
-                        </div>
-                    </div>
-                </div> -->
-
-            <!-- </div> -->
-
             <h2>Model Releases</h2>
             <div class="org-group">
                 <div class="org-header">
@@ -464,11 +381,11 @@
                     </li>
                     <li>
                         <span class="release-name"><a href="https://yiyan.baidu.com/blog/posts/ernie-5.1-0508-release/">ERNIE-5.1</a></span>
-                        <div class="release-note">Primary contributor. Post-training and RL core recipe.</div>
+                        <span class="release-note">Primary contributor. Post-training and RL core recipe.</span>
                     </li>
                     <li>
                         <span class="release-name"><a href="https://yiyan.baidu.com/blog/posts/ernie-5.1-0508-release/">ERNIE-5.1-Preview</a></span>
-                        <div class="release-note">Primary contributor. Post-training and RL core recipe.</div>
+                        <span class="release-note">Primary contributor. Post-training and RL core recipe.</span>
                     </li>
                     <li>
                         <span class="release-name"><a href="https://ernie.baidu.com/blog/posts/ernie-5.0-0110-release-on-lmarena/">ERNIE-5.0</a></span>
